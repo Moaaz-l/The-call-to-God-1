@@ -1,13 +1,13 @@
-import logo from './images/svg/scond.svg';
+// import logo from './images/svg/scond.svg';
 import './css/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className='project'></div>
+        <div className='title'></div>
       </header>
-      <canvas id='canvas'></canvas>
     </div>
   );
 }
