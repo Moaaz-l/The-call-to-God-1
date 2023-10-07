@@ -1,13 +1,13 @@
-// import logo from './images/svg/scond.svg';
-import './css/App.css';
+import "./css/App.css";
+import Welcome from "../src/js/welcome";
 
 function App() {
+  const Name = ["moaz", "yahya", "abdelrahman", "maryam", "dodo"];
   return (
     <div className="App">
-      <header className="App-header">
-      <div className='project'></div>
-        <div className='title'></div>
-      </header>
+      {Name.map((item) => (
+        <Welcome title={item} id={item} />
+      ))}
     </div>
   );
 }

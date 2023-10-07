@@ -14,32 +14,46 @@
 }
 
 .title {
-  background-color: rgb(29, 82, 95);
-  padding: 10px 10px;
-  width: 100%;
-  height: 3%;
-  top: 0;
+  background-color: rgb(66 79 82); 
+  padding: 10px 10px; 
+  width: 100%; 
+  height: 3%; 
+  top: 0; 
   position: fixed;
 }
 
 .project {
-  width: 50%;
-  height: 100%;
-  left: 50%;
-  position: fixed;
+  width: 4%; 
+  height: 100%; 
+  left: 0%; 
+  position: fixed; 
   background-color: darkgray;
+}
+#Welcome {
+  width: 60%;
+  height: 60%;
+  background: white;
+  color: rgb(71, 63, 63);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 3s;
+  opacity: 1;
+  border: solid 1px black;
+  border-radius: 100%;
+  padding: 10px 10px;
 }
 
 .App-header {
-  /* background-color: #282c34; */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  background-color: rgb(128, 109, 84);
+  min-height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  font-size: calc(10px + 2vmin); 
+  color: white; 
+  background-color: #d9d9d9c9;
+  box-shadow: inset 0px 0px 20px 0px black;
 }
 
 .App-link {
@@ -53,4 +67,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#maryam {
+  color: red;
+}
+
+#abdelrahman {
+  color: red;
 }
