@@ -3,7 +3,7 @@ import "./css/App.css";
 import Welcome from "./components/welcome";
 
 function App() {
-  const Name = ["معاذ", "يحيى", "عبد الرحمن", "مريم", "طنط","عمتو عبير"];
+  const Name = ["معاذ", "يحيى", "عبد الرحمن", "مريم", "طنط","الامل"];
   return (
     <div className="App">
       {Name.map((item) => (    
