@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #f9f9f9;
+  width: 100vw;
+  height: 100vh;
 }
 
 .App-logo {
@@ -72,4 +75,70 @@
 
 #abdelrahman {
   color: #61dafb;
+}
+
+textarea {
+  resize: none;
+  background-color: #fcfcfc;
+}
+
+#list {
+  position: fixed;
+  width: 3.5%;
+  height: 100%;
+  background-color: #f3f3f3;
+  border-right: solid 1px #e5e5e5;
+  transition: all 1s;
+}
+#list:hover {
+  width: 6%;
+}
+
+#chats {
+  position: fixed;
+  left: 5%;
+  background-color: #d9d9d9c9;
+  height: 100%;
+  width: 20%;
+}
+
+.custom-context-menu {
+  position: absolute;
+  background: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+.custom-context-menu li:hover {
+  background: #ddd;
+}
+
+.Login {
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-Login {
+  width: 40%;
+  height: 60%;
+  border-radius: 2%;
+  background-color: #fcfcfc;
+  border: solid 1px rgb(138, 135, 135);
 }

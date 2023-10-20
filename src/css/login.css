@@ -1,0 +1,25 @@
+#login-main {
+  position: fixed;
+  padding: 10px 10px;
+  background-color: rgb(171, 186, 196);
+  width: 100vw;
+  height: 100vh;
+  top: 0vh;
+  left: 0vw;
+}
+
+#login {
+  width: 50%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  background-color: rgb(106, 119, 119);
+}
+
+input {
+  border-radius: 5%;
+  padding: 1px 1px;
+  height: 8px;
+  border: none;
+}
