@@ -1,6 +1,6 @@
 /* eslint-disable react/style-prop-object */
 import "./css/App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Login from "./components/Login";
 import Chats from "./components/Chats";
 
